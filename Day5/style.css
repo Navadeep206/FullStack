@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 12px; /* Adds space between boxes */
+    background-color: aqua;
+    padding: 20px;
+}
+
+.nava {
+    border: 1px solid black;
+    padding: 10px;
+}
